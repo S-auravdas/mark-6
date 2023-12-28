@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <title>Multiple Image Upload</title>
+  </head>
+  <div class="body">
+  <body>
+    <form action="photo_upload.php" method="POST" enctype="multipart/form-data">
+      <h2>Select the Photos</h2>
+      <div class="select">
+       <input type="file" name="images[]" multiple>
+      </div>
+      <div class="btn.">
+        <input class="btn" type="submit" name="Submit" value="Upload">
+        </div>
+    </form>
+  </body>
+</div>
+</html>
